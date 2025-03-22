@@ -30,7 +30,7 @@ const destinations = [
     distance: "400 km",
     duration: "3 days",
     description: "Experience zero gravity and witness breathtaking views of Earth from our state-of-the-art orbital station.",
-    image: "/api/placeholder/1200/600",
+    image: "/prompt2025/images/orbital-station.jpeg",
     pricing: {
       economy: 75000,
       business: 125000,
@@ -46,7 +46,7 @@ const destinations = [
     distance: "384,400 km",
     duration: "10 days",
     description: "Stay at the exclusive Lunar Oasis Resort on the moon's surface and explore the magnificent desolation of our closest celestial neighbor.",
-    image: "/api/placeholder/1200/600",
+    image: "/prompt2025/images/lunar-resort.jpeg",
     pricing: {
       economy: 225000,
       business: 300000,
@@ -62,7 +62,7 @@ const destinations = [
     distance: "225 million km",
     duration: "30 days",
     description: "Prepare for the future of interplanetary travel in our Mars simulation facility, experiencing what life on the Red Planet will be like.",
-    image: "/api/placeholder/1200/600",
+    image: "/prompt2025/images/mars-experience.jpeg",
     pricing: {
       economy: 350000,
       business: 395000,
@@ -81,7 +81,7 @@ const accommodations = [
     type: "Economy",
     description: "Comfortable and practical space pods designed for the essential space experience.",
     amenities: ["Sleep station", "Personal storage", "Entertainment system", "Basic food service"],
-    image: "/api/placeholder/800/500"
+    image: "/prompt2025/images/economy-pod.jpeg"
   },
   {
     id: 2,
@@ -89,7 +89,7 @@ const accommodations = [
     type: "Business",
     description: "Expanded quarters with additional comfort features and personalized service.",
     amenities: ["Larger sleep quarters", "Work/leisure station", "Premium entertainment", "Priority dining", "Private hygiene facilities"],
-    image: "/api/placeholder/800/500"
+    image: "/prompt2025/images/business-suite.jpeg"
   },
   {
     id: 3,
@@ -97,7 +97,7 @@ const accommodations = [
     type: "Luxury",
     description: "The pinnacle of space accommodation, offering maximum space, comfort, and exclusive services.",
     amenities: ["Multi-room environment", "Panoramic observation windows", "Personal concierge", "Gourmet dining", "Exclusive access to ship areas", "Custom space attire"],
-    image: "/api/placeholder/800/500"
+    image: "/prompt2025/images/luxury-villa.jpeg"
   }
 ];
 
@@ -479,7 +479,7 @@ function HomeScreen({ onSelectDestination }) {
         <div 
           className="h-96 w-full bg-cover bg-center"
           style={{ 
-            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('/api/placeholder/1920/1080')` 
+            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('/prompt2025/images/hero-background.jpeg')`
           }}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center">
