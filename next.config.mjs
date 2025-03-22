@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-export default nextConfig;
-
+const nextConfig = {
+    basePath: '/prompt2025',
+  };
+  export default nextConfig;
+  
