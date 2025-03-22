@@ -479,7 +479,7 @@ function HomeScreen({ onSelectDestination }) {
         <div 
           className="h-96 w-full bg-cover bg-center"
           style={{ 
-            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('/prompt2025/images/hero-background.jpeg')`
+            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('/prompt2025/images/hero-background.png')`
           }}
         >
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center">
